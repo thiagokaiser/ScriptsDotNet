@@ -6,7 +6,8 @@ namespace Scripts
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PropClasses.Exec();            
+            Console.ReadKey();
         }
     }
 }
